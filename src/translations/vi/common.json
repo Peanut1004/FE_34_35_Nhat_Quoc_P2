@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "usersManagement": "Quản lý tài khoản",
+    "moviesManagement": "Quản lý phim",
+    "revenueManagement": "Quản lý doanh thu",
+    "ticketsManagement": "Quản lý vé",
+
+    "addUser": "Thêm tài khoản",
+    "editUser": "Sửa tài khoản",
+    "addMovie": "Thêm phim",
+    "editMovie": "Sửa phim",
+
+    "id": "Id",
+    "name": "Tên",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "phone": "Số điện thoại",
+    "region": "Khu vực",
+    "birthday": "Ngày sinh",
+    "gender": "Giới tính",
+    "action": "Hành động",
+    "image": "Hình ảnh",
+    "ratings": "Xếp hạng",
+    "time": "Thời lượng",
+    "producer": "Nhà sản xuất",
+    "type": "Thể loại",
+    "actor": "Diễn viên",
+    "releaseDate": "Ngày công chiếu",
+    "dayBuy": "Ngày mua",
+    "movieMoney": "Tiền phim",
+    "movieFood": "Tiền thức ăn",
+    "total": "Tổng",
+    "movieName": "Tên phim",
+    "movieCinema": "Tên rạp",
+    "timeSet": "Thời gian đặt",
+    "edit": "Sửa",
+    "remove": "Xóa",
+
+    "confirmUser": "Bạn có chắc muốn xóa tài khoản này?",
+    "confirmMovie": "Bạn có chắc muốn xóa phim này?",
+    "confirmTicket": "Bạn có chắc muốn xóa vé này?",
+
+    "male": "Nam",
+    "female": "Nữ",
+
+    "hcm": "Hồ Chí Minh",
+    "hn": "Hà Nội",
+    "dn": "Đà Nẵng"
+  },
+
+  "authentication": {
+    "login": "Đăng nhập",
+    "register": "Đăng ký"
+  },
+
+  "menu": {
+    "home": "Trang chủ",
+    "buyTicket": "Mua vé",
+    "movie": "Phim",
+    "cinema": "Rạp",
+    "member": "Thành Viên"
+  },
+
+  "titleSection": {
+    "blog" : "Nhật Kí",
+    "movie": "Phim",
+    "newest": "Mới nhất",
+    "new": "Mới",
+    "promotion": "Khuyến mãi"
+  },
+
+  "video": {
+    "videoPlay": "Xem video",
+    "bymoviak": "Bymoviak"
+  },
+
+  "widget": {
+    "description": "Rất hân hạnh được phục vụ các bạn !",
+
+    "introduce": "Giới thiệu",
+    "cinemaCorner": "Góc rạp chiếu phim",
+    "support": "Hỗ trợ",
+
+    "aboutUs": "Về chúng tôi",
+    "convenient": "Thuận tiện để sử dụng",
+    "regulation": "Quy chế hoạt động",
+    "privacyPolicy": "Chính sách bảo mật",
+    "movieGenre": "Thể loại phim",
+    "movieCommentary": "Bình luận phim",
+    "blogMovies": "Blog phim",
+    "movieMonth": "Phim tháng hay",
+    "address": "65 Yên Thế, Đà Nẵng",
+    "gmail": "abc@gmail.com",
+    "phone": "0123 456 789"
+  }
+}

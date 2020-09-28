@@ -1,0 +1,96 @@
+{
+  "admin": {
+    "usersManagement": "Users Management",
+    "moviesManagement": "Movies Management",
+    "revenueManagement": "Revenue Management",
+    "ticketsManagement": "Tickets Management",
+
+    "addUser": "Add User",
+    "editUser": "Edit User",
+    "addMovie": "Add Movie",
+    "editMovie": "Edit Movie",
+
+    "id": "Id",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "phone": "Phone",
+    "region": "Region",
+    "birthday": "Birthday",
+    "gender": "Gender",
+    "action": "Action",
+    "image": "Image",
+    "ratings": "Ratings",
+    "time": "Time",
+    "producer": "Producer",
+    "type": "Type",
+    "actor": "Actor",
+    "releaseDate": "ReleaseDate",
+    "dayBuy": "Day Buy",
+    "movieMoney": "Movie Money",
+    "movieFood": "Movie Food",
+    "total": "Total",
+    "movieName": "Movie Name",
+    "movieCinema": "Movie Cinema",
+    "timeSet": "Time Set",
+    "edit": "Edit",
+    "remove": "Remove",
+
+    "confirmUser": "Are you sure remove this user?",
+    "confirmMovie": "Are you sure remove this movie?",
+    "confirmTicket": "Are you sure remove this ticket?",
+
+    "male": "Male",
+    "female": "Female",
+
+    "hcm": "Ho Chi Minh",
+    "hn": "Ha Noi",
+    "dn": "Da Nang"
+  },
+
+  "authentication": {
+    "login": "Login",
+    "register": "Register"
+  },
+
+  "menu": {
+    "home": "Home",
+    "buyTicket": "Buy Ticket",
+    "movie": "Movie",
+    "cinema": "Cinema",
+    "member": "Member"
+  },
+
+  "titleSection": {
+    "blog" : "Blog",
+    "movie": "Movie",
+    "newest": "Newest",
+    "new": "New",
+    "promotion": "Promotion"
+  },
+
+  "video": {
+    "videoPlay": "video play",
+    "bymoviak": "Bymoviak"
+  },
+
+  "widget": {
+    "description": "Very pleased to serve you !",
+
+    "introduce": "Introduce",
+    "cinemaCorner": "Cinema Corner",
+    "support": "Support",
+
+    "aboutUs": "About us",
+    "convenient": "Convenient to use",
+    "regulation": "Operation regulation",
+    "privacyPolicy": "Privacy Policy",
+    "movieGenre": "Movie genre",
+    "movieCommentary": "Movie commentary",
+    "blogMovies": "Blog movies",
+    "movieMonth": "Good movie month",
+    "address": "65 Yên Thế, Đà Nẵng",
+    "gmail": "abc@gmail.com",
+    "phone": "0123 456 789"
+  }
+}
