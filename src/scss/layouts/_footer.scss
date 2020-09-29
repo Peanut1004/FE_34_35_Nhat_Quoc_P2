@@ -86,6 +86,57 @@
 			content: "\f095";
 		}
 	}
+	&-mg {
+		margin-bottom: 40px;
+	}
+}
+
+.widget-sidebar {
+	&__title {
+		font-size: 28px;
+	  line-height: 40px;
+	  font-weight: 600;
+	  color: #000;
+	  margin-bottom: 20px;
+	}
+	&__entryItem {
+		overflow: hidden;
+	}
+	&__thumb {
+		width: 100%;
+	  max-width: 150px;
+	  float: left;
+	  margin-right: 20px;
+	}
+	&__content {
+		overflow: hidden;
+		&--title {
+			margin-bottom: 10px;
+			a {
+				font-size: 16px;
+  			font-weight: 500;
+			}
+		}
+		&--meta {
+			span {
+				position: relative;
+  			padding-right: 10px;
+  			margin-right: 5px;
+  			&:after {
+  				content: "/";
+				  top: 50%;
+				  color: #000;
+				  font-size: 15px;
+				  right: 0;
+				  transform: translateY(-50%);
+				  position: absolute;
+  			}
+  			&:last-child:after {
+  				display: none;
+  			}
+			}
+		}
+	}
 }
 
 .bottom {

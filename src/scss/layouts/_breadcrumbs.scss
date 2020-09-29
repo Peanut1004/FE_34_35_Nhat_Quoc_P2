@@ -1,11 +1,11 @@
 .breadcrumbs {
-  padding-top: 50px;
+  padding: 50px 0;
   a {
 	  font-size: 18px;
-	  padding-right: 15px;
+	  padding-right: 14px;
 	  position: relative;
 	  font-weight: $font-weight3;
-	  margin-right: 5px;
+	  margin-right: 10px;
 	  &:last-child {
 			color: #bfbfbf;
 			&:after {

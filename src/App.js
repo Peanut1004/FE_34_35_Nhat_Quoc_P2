@@ -1,13 +1,26 @@
 import React from "react";
-import Home from "./components/pages/Home";
 import "./scss/styles.scss";
-import { BrowserRouter as Router } from "react-router-dom";
+import Home from "./components/pages/Home";
+import MovieListPages from "./components/pages/MovieListPages";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import routers from "./routers";
 
-function App() {
-  return(
-  	<div>
+const App = () => {
+  const showContentMenus = (routers) => {
+    return routers.map((router, index) => (
+      <Route
+        key={index}
+        path={router.path}
+        exact={router.exact}
+        component={router.main}
+      />
+    ));
+  };
+
+  return (
+    <div>
       <Router>
-        <Home></Home>
+        <Switch>{showContentMenus(routers)}</Switch>
       </Router>
     </div>
   );

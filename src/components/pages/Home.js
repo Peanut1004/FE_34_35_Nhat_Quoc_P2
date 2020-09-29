@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../partials/Header";
 import Footer from "../partials/Footer";
 import Slider from "../home/Slider";
-import Movie from "../home/Movie";
+import MovieListHome from "../home/MovieListHome";
 import MovieVideo from "../home/MovieVideo";
 import NewPromotion from "../home/NewPromotion";
 import Blog from "../home/Blog";
@@ -14,7 +14,7 @@ const Home = () => {
       <Header />
       <div className="main">
         <Slider />
-      	<Movie />
+      	<MovieListHome />
         <MovieVideo />
         <NewPromotion />
         <Blog />
