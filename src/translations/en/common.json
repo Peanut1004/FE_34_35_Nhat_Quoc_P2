@@ -69,6 +69,10 @@
     "promotion": "Promotion"
   },
 
+  "movie": {
+    "title": "Showtime"
+  },
+
   "video": {
     "videoPlay": "video play",
     "bymoviak": "Bymoviak"
@@ -91,12 +95,42 @@
     "movieMonth": "Good movie month",
     "address": "65 Yên Thế, Đà Nẵng",
     "gmail": "abc@gmail.com",
-    "phone": "0123 456 789"
+    "phone": "0123 456 789",
+
+    "recentPosts": "Recent Posts"
   },
 
   "breadcrumbs": {
     "home": "Home",
     "listMovie": "List Movie",
-    "listDetails": "List Details"
+    "listDetails": "List Details",
+    "buyTicket": "Buy ticket"
+  },
+
+  "titleBooking": {
+    "chooseTiketFood": "CHOOSE TICKET / FOOD",
+    "chooseSeat": "CHOOSE SEAT",
+    "choosePay": "PLEASE PAY"
+  },
+
+  "chooseTiket": {
+    "ticketType": "Ticket Type",
+    "combo": "Combo",
+    "number": "Number",
+    "price": "Price (VNĐ)",
+    "totalItem": "Total (VNĐ)",
+    "totalAllItems": "Total",
+    "adults": "Adults",
+    "ticket2D": "2D tickets"
+  },
+
+  "buyTicket": {
+    "cinema": "Cinema:",
+    "screening": "Screening:",
+    "date": "Date:",
+    "combo": "Combo:",
+    "seat": "Seat:",
+    "total": "Total:",
+    "continue": "Continue"
   }
 }

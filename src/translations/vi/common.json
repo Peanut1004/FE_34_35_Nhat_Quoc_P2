@@ -69,6 +69,10 @@
     "promotion": "Khuyến mãi"
   },
 
+  "movie": {
+    "title": "Thời gian chiếu"
+  },
+
   "video": {
     "videoPlay": "Xem video",
     "bymoviak": "Bymoviak"
@@ -91,12 +95,42 @@
     "movieMonth": "Phim tháng hay",
     "address": "65 Yên Thế, Đà Nẵng",
     "gmail": "abc@gmail.com",
-    "phone": "0123 456 789"
+    "phone": "0123 456 789",
+
+    "recentPosts": "Bài đăng gần đây"
   },
 
   "breadcrumbs": {
     "home": "Trang chủ",
     "listMovie": "Liệt kê phim",
-    "listDetails": "Chi tiết phim"
+    "listDetails": "Chi tiết phim",
+    "buyTicket": "Mua vé"
+  },
+
+  "titleBooking": {
+    "chooseTiketFood": "CHỌN VÉ / MÓN ĂN",
+    "chooseSeat": "CHỌN GHẾ",
+    "choosePay": "VUI LÒNG THANH TOÁN"
+  },
+
+  "chooseTiket": {
+    "ticketType":"Loại Vé",
+    "combo": "Combo",
+    "number": "Số lượng",
+    "price": "Giá (VNĐ)",
+    "totalItem": "Tổng (VNĐ)",
+    "totalAllItems": "Tổng",
+    "adults": "Người lớn",
+    "ticket2D": "Vé 2D"
+  },
+
+  "buyTicket": {
+    "cinema": "Rạp:",
+    "screening": "Suất chiếu:",
+    "date": "Thời gian:",
+    "combo": "Combo:",
+    "seat": "Ghế:",
+    "total": "Tổng:",
+    "continue": "Tiếp tục"
   }
 }

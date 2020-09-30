@@ -3,6 +3,7 @@ import slidesReducer from "./slice/slidesSlice";
 import movieListReducer from "./slice/movieListSlice";
 import cinemasReducer from "./slice/cinemasSlice";
 import newPromotionReducer from "./slice/newPromotionSlice";
+import comboReducer from "./slice/comboSlice";
 import blogReducer from "./slice/blogSlice";
 
 const store = configureStore({
@@ -12,6 +13,7 @@ const store = configureStore({
   	cinemas: cinemasReducer,
   	promotion: newPromotionReducer,
   	blogs: blogReducer,
+  	combo: comboReducer,
   },
 });
 

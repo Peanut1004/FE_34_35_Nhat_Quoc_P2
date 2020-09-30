@@ -1,0 +1,18 @@
+.frame-choose {
+	position: relative;
+	&__inner {
+		top: 0;
+		left: 0;
+		position: absolute;
+		padding: 10px;
+		background-color: #f26b38;
+	}
+	&__title {
+	  font-size: 24px;
+	  line-height: 40px;
+	  text-transform: uppercase;
+	  color: #fff;
+	  padding: 10px;
+	}
+}
+

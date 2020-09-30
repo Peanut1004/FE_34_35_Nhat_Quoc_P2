@@ -86,7 +86,7 @@ const MovieDetails = () => {
                 <a href="#"><img src="assets/images/sidebar/01.jpg" alt="images" /></a>
               </div>
               <div className="widget-mg widget-sidebar__posts">
-                <h3 className="widget-sidebar__title">Recent Posts</h3>
+                <h3 className="widget-sidebar__title">{t("widget.recentPosts")}</h3>
                 <div className="widget-sidebar__entryItem">
                   <div className="widget-sidebar__thumb">
                     <a href="#"><img src="assets/images/sidebar/01.jpg" alt="images" /></a>

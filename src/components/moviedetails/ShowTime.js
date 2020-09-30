@@ -18,7 +18,7 @@ const ShowTime = () => {
   console.log(cinemas, error)
   return(
     <div className="movie-detail__st">
-      <h3 className="movie-detail__title">Showtime</h3>
+      <h3 className="movie-detail__title">{t("movie.title")}</h3>
       { loading ? <p>Loading...</p>
         : error ? <p>{error.message}</p>
         : cinemas.map((e, i) => (

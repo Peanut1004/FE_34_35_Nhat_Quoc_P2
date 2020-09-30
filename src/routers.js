@@ -9,6 +9,7 @@ import React from "react";
 import MovieListPage from "./components/pages/MovieList";
 import MovieDetailPage from "./components/pages/MovieDetails";
 import ChooseTickets from "./components/pages/ChooseTickets";
+import ChooseSeats from "./components/pages/ChooseSeats";
 import Home from "./components/pages/Home";
 
 const routers = [
@@ -31,6 +32,11 @@ const routers = [
     path: "/choose-ticket",
     exact: true,
     main: () => <ChooseTickets />,
+  },
+  {
+    path: "/choose-seat",
+    exact: true,
+    main: () => <ChooseSeats />,
   },
   {
     path: "/",
