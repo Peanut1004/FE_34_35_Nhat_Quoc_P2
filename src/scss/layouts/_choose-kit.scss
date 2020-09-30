@@ -1,0 +1,36 @@
+table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.booking-ticket {
+	&__title {
+		font-size: 24px;
+	  line-height: 40px;
+	  text-transform: uppercase;
+	  color: #fff;
+	  padding: 10px;
+	  background-color: #f26b38;
+	}
+}
+
+.buy-ticket {
+	&__table {
+		width: 100%;
+		font-size: 14px;
+	  margin-bottom: 0;
+	  background-color: #fff;
+	  tbody tr td:first-child {
+	  	width: 40%;
+	  }
+	  tbody > tr {
+	  	background-color: #f9f9f9;
+	  }
+	  > thead {
+	  	background-color: #47251c;
+  		color: #ffffff;
+	  }
+	}
+}

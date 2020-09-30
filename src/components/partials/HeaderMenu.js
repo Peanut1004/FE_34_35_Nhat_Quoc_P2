@@ -19,13 +19,10 @@ const HeaderMenu = () => {
               <nav>
                 <ul className="menu">
                   <li className="menu__list">
-                    <Link to="/" className="active menu__list--link" href="#">{t("menu.home")}</Link> 
+                    <Link to="/" className="menu__list--link" href="#">{t("menu.home")}</Link> 
                   </li>
                   <li className="menu__list">
-                    <a className="menu__list--link" href="#">{t("menu.buyTicket")}</a>
-                  </li>
-                  <li className="menu__list">
-                    <Link to="/movieList" className="menu__list--link" href="#">{t("menu.movie")}</Link>
+                    <Link to="/movie-list" className="menu__list--link" href="#">{t("menu.movie")}</Link>
                   </li>
                   <li className="menu__list">
                     <a className="menu__list--link" href="#">{t("menu.cinema")}</a>

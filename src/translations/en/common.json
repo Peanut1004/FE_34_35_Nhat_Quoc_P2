@@ -92,5 +92,11 @@
     "address": "65 Yên Thế, Đà Nẵng",
     "gmail": "abc@gmail.com",
     "phone": "0123 456 789"
+  },
+
+  "breadcrumbs": {
+    "home": "Home",
+    "listMovie": "List Movie",
+    "listDetails": "List Details"
   }
 }

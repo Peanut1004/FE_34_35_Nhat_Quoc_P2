@@ -7,7 +7,12 @@ const moviesApi = {
   },
 
   getMovieList: () => {
-    const url = "/movies?_page=1&_limit=8";
+    const url = "/movies?_page=1&_limit=4";
+    return axiosClient.get(url);
+  },
+
+  getMovieDetails: () => {
+    const url = "/movies?_page=1&_limit=1";
     return axiosClient.get(url);
   },
 

@@ -1,38 +1,40 @@
 import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { useDispatch, useSelector } from "react-redux";
-import { getMovieList } from "../../redux/slice/movieListSlice";
+import { Link } from "react-router-dom";
+import { getMovieDetails } from "../../redux/slice/movieListSlice";
+import ShowTime from "./ShowTime";
 
-const MovieListPage = () => {
+
+const MovieDetails = () => {
   const { t } = useTranslation("common");
   const dispatch = useDispatch();
 
   const { movies, loading, error } = useSelector((state) => state.movies);
 
   useEffect(() => {
-    dispatch(getMovieList());
+    dispatch(getMovieDetails());
   }, [dispatch]);
 
   console.log(movies, error)
-
   return(
     <div>
       <div className="breadcrumbs">
         <div className="container">
           <div className="breadcrumbs__link">
-            <a href="#">Home</a>
-            <a href="#">List Movie</a>
+            <a href="#">{t("breadcrumbs.home")}</a>
+            <a href="#">{t("breadcrumbs.listDetails")}</a>
           </div>
         </div>
       </div>
-      <div className="list-movie">
+      <div className="movie-detail">
         <div className="container">
-          <div className="list-movie__grid">
-            <div className="list-movie__feature">
+          <div className="movie-detail__grid">
+            <div className="movie-detail__feature">
               { loading ? <p>Loading...</p>
-                : error ? <p>{error.message}</p>
-                : movies.map((e, i) => (
-                  <div className="list-movie__box">
+                  : error ? <p>{error.message}</p>
+                  : movies.map((e, i) => (
+                  <div className="list-movie__box" key={e}>
                     <div className="list-movie__poster">
                       <img src={e.image} alt="images" />
                     </div>
@@ -42,35 +44,21 @@ const MovieListPage = () => {
                       </h3>
                       <div className="list-movie__rating">
                         <span className="list-movie__rating--icon">
-                          <i className="fa fa-star" aria-hidden="true"></i>
-                          <i className="fa fa-star" aria-hidden="true"></i>
-                          <i className="fa fa-star" aria-hidden="true"></i>
-                          <i className="fa fa-star" aria-hidden="true"></i>
-                          <i className="fa fa-star-o" aria-hidden="true"></i>
+                          {e.ratings}
                         </span>
-                        <span className="list-movie__rating--votes">(37 Votes)</span>
                       </div>
                       <div className="list-movie__time">
                         <span className="list-movie__time--slot">G</span>
                         <span className="list-movie__time--icon">
                           <i className="fa fa-clock-o" aria-hidden="true"></i>
                         </span>
-                        <span className="list-movie__time--text">{e.time} Phút</span>
+                        <span className="list-movie__time--text">
+                          {e.time} Phút
+                        </span>
                       </div>
-                      <p className="list-movie__description">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, ...
-                      </p>
                       <div className="list-movie__info">
-                        <label className="release-date">Release Date :</label>
+                        <label className="release-date">Release Date: </label>
                         <span className="text">{e.releaseDate}</span>
-                      </div>
-                      <div className="list-movie__info">
-                        <label className="release-date">Nation: </label>
-                        <span className="text">Brazil, France, Germany, United States</span>
-                      </div>
-                      <div className="list-movie__info">
-                        <label className="release-date">Year: </label>
-                        <span className="text">2020</span>
                       </div>
                       <div className="list-movie__info">
                         <label className="release-date">Genre: </label>
@@ -86,14 +74,14 @@ const MovieListPage = () => {
                       </div>
                       <div className="list-movie__button">
                         <a href="#" className="list-movie__trailer">Trailer</a>
-                        <a href="#" className="list-movie__det">Detail</a>
                       </div>
                     </div>
                   </div>
                 ))
               }
+              <ShowTime />
             </div>
-            <div className="list-movie__sidebar">
+            <div className="movie-detail__sidebar">
               <div className="widget-mg widget-sidebar__image">
                 <a href="#"><img src="assets/images/sidebar/01.jpg" alt="images" /></a>
               </div>
@@ -122,6 +110,4 @@ const MovieListPage = () => {
   );
 }
 
-export default MovieListPage;
-
-
+export default MovieDetails;

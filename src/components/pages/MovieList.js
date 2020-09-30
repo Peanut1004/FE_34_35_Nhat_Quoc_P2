@@ -1,17 +1,17 @@
 import React from "react";
 import Header from "../partials/Header";
 import Footer from "../partials/Footer";
-import MovieListPage from "../home/MovieListPage";
+import MovieList from "../movielist/MovieList";
 
-const MovieListPages = () => {
+const MovieListPage = () => {
   return (
-    <div className="homepages">
+    <div className="moviepages">
       <Header />
       <div className="main">
-        <MovieListPage />
+        <MovieList />
       </div>
       <Footer />
     </div>	
   );
 }
-export default MovieListPages;
+export default MovieListPage;

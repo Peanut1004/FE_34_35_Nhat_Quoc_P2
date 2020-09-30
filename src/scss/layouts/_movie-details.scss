@@ -1,0 +1,13 @@
+.movie-detail {
+  padding-bottom: 100px;
+  &__grid {
+  	@include grid(2fr 1fr);
+  }
+  &__title {
+  	color: #fe7900;
+	  font-size: 35px;
+	  line-height: 50px;
+	  font-weight: bold;
+	  margin-bottom: 20px;
+  }
+}

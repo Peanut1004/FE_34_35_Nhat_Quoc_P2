@@ -1,7 +1,7 @@
 import React from "react";
 import "./scss/styles.scss";
 import Home from "./components/pages/Home";
-import MovieListPages from "./components/pages/MovieListPages";
+import MovieListPages from "./components/pages/MovieList";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import routers from "./routers";
 

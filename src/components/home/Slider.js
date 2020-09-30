@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
+import { Fade } from 'react-slideshow-image';
 import { useDispatch, useSelector } from "react-redux";
 import { getSlides } from "../../redux/slice/slidesSlice";
 

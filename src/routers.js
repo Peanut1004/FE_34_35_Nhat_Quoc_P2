@@ -6,14 +6,31 @@ import React from "react";
 // import AdminUserAddEdit from "./components/admin/AdminUserAddEdit";
 // import AdminUsersManagement from "./components/admin/AdminUsersManagement";
 // import Register from "./components/pages/Register";
-import MovieListPages from "./components/pages/MovieListPages";
+import MovieListPage from "./components/pages/MovieList";
+import MovieDetailPage from "./components/pages/MovieDetails";
+import ChooseTickets from "./components/pages/ChooseTickets";
 import Home from "./components/pages/Home";
 
 const routers = [
   {
-    path: "/movieList",
+    path: "/movie-list",
     exact: true,
-    main: () => <MovieListPages />,
+    main: () => <MovieListPage />,
+  },
+  {
+    path: "/buy-ticket",
+    exact: true,
+    main: () => <MovieDetailPage />,
+  },
+  {
+    path: "/movie-details",
+    exact: true,
+    main: () => <MovieDetailPage />,
+  },
+  {
+    path: "/choose-ticket",
+    exact: true,
+    main: () => <ChooseTickets />,
   },
   {
     path: "/",

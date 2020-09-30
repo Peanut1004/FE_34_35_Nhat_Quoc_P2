@@ -1,7 +1,7 @@
 .list-movie {
 	padding-bottom: 100px;
 	&__grid {
-		@include grid(2fr 1fr);
+		@include grid(1fr 1fr 1fr 1fr);
 	}
 	&__box {
 		padding-bottom: 40px;
@@ -62,7 +62,7 @@
 	}
 	&__info {
 		font-size: 13px;
-  	margin-bottom: 5px;
+  	margin-bottom: 10px;
   	label {
   		color: #999999;
   	}
@@ -76,6 +76,7 @@
 			position: relative;
 		  padding-left: 30px;
 		  margin-right: 20px;
+		  font-weight: $font-weight6;
 		  &:before {
 				content: "\f04b";
 			  top: 50%;
@@ -95,7 +96,7 @@
 			}
 		}
 	}
-	&__det:before {
-		content: "\f129";
-	}
+}
+.list-movie__button .list-movie__det:before {
+    content: "\f129";
 }
