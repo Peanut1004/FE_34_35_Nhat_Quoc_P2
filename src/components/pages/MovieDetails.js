@@ -5,11 +5,9 @@ import MovieDetails from "../moviedetails/MovieDetails";
 
 const MovieDetailPage = () => {
   return (
-    <div className="moviepages">
+    <div className="movie-page">
       <Header />
-      <div className="main">
-        <MovieDetails />
-      </div>
+      <MovieDetails />
       <Footer />
     </div>	
   );

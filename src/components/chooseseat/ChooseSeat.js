@@ -18,51 +18,47 @@ const ChooseSeat = () => {
   console.log(combo, error)
   return(
   	<div>
-  		<div class="breadcrumbs">
-	      <div class="container">
-	        <div class="breadcrumbs__link">
+  		<div className="breadcrumbs">
+	      <div className="container">
+	        <div className="breadcrumbs__link">
 	          <a href="#">Home</a>
 	          <a href="#">Seat Reservation</a>
 	        </div>
 	      </div>
 	    </div>
-	    <div class="seat__dt">
-            <div class="seat__scope">
-              <div class="seat__rows">
-                <span>I</span>
-                <ul class="seat__row">
-                  <li>10</li>
-                  <li>9</li>
-                  <li>8</li>
-                  <li>7</li>
-                  <li>6</li>
-                  <li>5</li>
-                  <li>4</li>
-                  <li>3</li>
-                  <li>2</li>
-                  <li>1</li>
-                </ul>
-                <span>I</span>
-              </div>
-              <div class="seat__rows">
-                <span>I</span>
-                <ul class="seat__row">
-                  <li>10</li>
-                  <li>9</li>
-                  <li>8</li>
-                  <li>7</li>
-                  <li>6</li>
-                  <li>5</li>
-                  <li>4</li>
-                  <li>3</li>
-                  <li>2</li>
-                  <li>1</li>
-                </ul>
-                <span>I</span>
-              </div>
-             
-            </div>
-          </div>
+	    <div className="seat-revervation">
+	    	<div className="container">
+			    <div className="seat__grid">
+			    	
+			        <div className="seat__scope">
+			          <div className="seat__rows">
+			            <span>I</span>
+			            <ul>
+			              <li>5</li>
+			              <li>4</li>
+			              <li>3</li>
+			              <li>2</li>
+			              <li>1</li>
+			            </ul>
+			            <span>I</span>
+			          </div>
+			          <div className="seat__rows">
+			            <span>I</span>
+			            <ul>
+			              <li>5</li>
+			              <li>4</li>
+			              <li>3</li>
+			              <li>2</li>
+			              <li>1</li>
+			            </ul>
+			            <span>I</span>
+			          </div>
+			         
+			        </div>
+			      
+			    </div>
+	      </div>
+	    </div>
   	</div>
   );
 }

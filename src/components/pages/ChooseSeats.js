@@ -5,9 +5,9 @@ import ChooseSeat from "../chooseseat/ChooseSeat";
 
 const ChooseSeats = () => {
   return (
-    <div className="choose-seat-pages">
+    <div className="choose-seat-page">
       <Header />
-        <ChooseSeat />
+      <ChooseSeat />
       <Footer />
     </div>	
   );

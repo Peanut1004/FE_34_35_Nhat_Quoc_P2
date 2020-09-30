@@ -7,10 +7,9 @@ import MovieVideo from "../home/MovieVideo";
 import NewPromotion from "../home/NewPromotion";
 import Blog from "../home/Blog";
 
-
 const Home = () => {
   return (
-    <div className="homepages">
+    <div className="home-page">
       <Header />
       <div className="main">
         <Slider />

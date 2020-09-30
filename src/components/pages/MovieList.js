@@ -5,11 +5,9 @@ import MovieList from "../movielist/MovieList";
 
 const MovieListPage = () => {
   return (
-    <div className="moviepages">
+    <div className="movie-page">
       <Header />
-      <div className="main">
-        <MovieList />
-      </div>
+      <MovieList />
       <Footer />
     </div>	
   );

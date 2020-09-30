@@ -5,9 +5,9 @@ import ChooseTicket from "../chooseticket/ChooseTicket";
 
 const ChooseTickets = () => {
   return (
-    <div className="choose-ticket-pages">
+    <div className="choose-ticket-page">
       <Header />
-        <ChooseTicket />
+      <ChooseTicket />
       <Footer />
     </div>	
   );
